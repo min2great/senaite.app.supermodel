@@ -16,7 +16,7 @@ with open("CHANGES.rst", "r") as fh:
 setup(
     name="valer.core.supermodel",
     version=version,
-    description="A beautiful content wrapper for SENAITE that you will love",
+    description="A beautiful content wrapper for VALER LIS that you will love",
     long_description=long_description,
     # long_description_content_type="text/markdown",
     # Get more strings from
