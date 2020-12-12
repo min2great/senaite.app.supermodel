@@ -14,7 +14,7 @@ with open("CHANGES.rst", "r") as fh:
     long_description += fh.read()
 
 setup(
-    name="valeri.core.supermodel",
+    name="valer.core.supermodel",
     version=version,
     description="A beautiful content wrapper for VALER LIS that you will love",
     long_description=long_description,
