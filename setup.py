@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-version = "1.2.4"
+version = "1.2.4rc1"
 
 with open("docs/About.rst", "r") as fh:
     long_description = fh.read()
@@ -14,7 +14,7 @@ with open("CHANGES.rst", "r") as fh:
     long_description += fh.read()
 
 setup(
-    name="valer.core.supermodel",
+    name="valeri.core.supermodel",
     version=version,
     description="A beautiful content wrapper for VALER LIS that you will love",
     long_description=long_description,
@@ -42,7 +42,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "setuptools",
-        "valer.core",
+        "valer.core==1.3.4rc1",
     ],
     extras_require={
         "test": [
