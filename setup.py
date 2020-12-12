@@ -42,7 +42,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "setuptools",
-        "valer.core==1.3.4rc1",
+        "valer.core==1.3.5rc1",
     ],
     extras_require={
         "test": [
